@@ -1,0 +1,324 @@
+/** Hoja de estilos CSS */
+
+body {
+  font-family: Arial; 
+  font-size: 12px;	
+}
+
+h1 { 
+  font-family: copperplate;
+  text-align: center; 	
+  font-size: 30px;
+  color: #0C3720;
+
+}
+
+h2 { 
+  font-family: courier new;
+  text-align: center;
+  color: #646464;
+  
+ }
+
+h3 {
+  color: #C8EBD3;
+}
+
+
+/** Imatges */
+
+.img {
+    width: auto; 
+    height: 100px;
+   
+}
+
+.img1 {
+    width: auto; 
+    height: 200px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;   
+
+}
+
+
+/** Estilos menús de navegación */
+
+nav {
+
+  background-color: #E2E2E2;
+  padding: 1%;
+  font-weight: bold;
+  text-align: left;
+ 
+  display: flex;
+  
+}
+
+
+nav a {
+  display: block; 
+  color: #000;   
+text-decoration: none; 
+  padding: 10px;
+} 
+
+nav a:hover {
+  background-color: white;
+
+}
+
+
+.buscador {
+margin-left: auto;
+
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+
+}
+
+.logopetit {
+
+  width: 80px;
+  height: auto;
+  margin-right: 20px;
+
+}
+
+  
+
+.espais {
+
+ text-align: center; 
+ margin-right: 20px;
+
+}
+
+/** Estilos header */
+
+header {
+  padding: 1%;
+  background-color: #C8EBD3;
+  text-align: center;
+}
+
+/** Estilos section */
+
+section {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
+/** Estilo Article en 3 columnas */
+
+.column {
+  
+  float: left;
+  width: 30%;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 1px;
+  flex-grow: 1;
+}
+
+.enlacearticulo {
+
+text-decoration: none; 
+color: inherit;
+
+}
+
+/** Estilo web LIBROS */
+
+
+
+.articlelibros {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  width: 50%;
+  overflow: hidden;
+  display: block;
+
+}
+
+.articlelibros h2 {
+  float: left;
+  margin-right: 10px; 
+  max-width: 100%;
+  clear:both;
+ }
+
+.articlelibros p {
+  margin: 10px 0 0;
+           
+}
+
+/** Estilo section libros*/
+
+.sectionlibros {
+            flex: 2;
+            padding: 10px;
+text-align: left;
+
+        }
+
+.container {
+    display: flex;
+   
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.row {
+    margin-bottom: 20px;
+float: left;
+}
+
+aside.menu {
+  flex: 1;
+  padding: 20px;
+ 
+           
+        }
+
+/** Estilo tabla Libros */
+
+
+th {
+color: #0C3720;
+}
+
+.table {
+text-align: center;
+font-size: 12px;
+border-color: #0C3720;
+border-width: 2px;
+
+} 
+
+
+/** Estilos novedades libros */
+
+.row {
+   display: flex;
+  justify-content: center;     align-items: center; 
+    gap: 20px; 
+
+}
+
+.portadas {
+    width: 150px;
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.portadas img {
+    width: 100%;     
+height: 100%; 
+    object-fit: cover;
+}
+
+/** Estilos iframe */
+
+.column iframe {
+    max-width: 100%;
+}
+
+
+
+/** Estilo formulario */
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #E2E2E2;
+
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+
+.form-group label {
+  flex: 0 0 150px;
+  font-weight: bold;
+
+}
+
+.form-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+}
+
+.form-group input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+}
+
+.form-group input[type="submit"] {
+  flex: none;
+  width: 100%;
+  background-color: #0C3720;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+
+
+/** Estilos footer*/
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #0C3720;
+  padding: 0.5%;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: right;
+  clear: both;
+  color: white;
+}
+
+footer a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-size: 24px;    
+
+ }
+
+footer a.fab {
+      display: inline-block;
+      margin-right: 8px; 
+      vertical-align: middle;
+    }
